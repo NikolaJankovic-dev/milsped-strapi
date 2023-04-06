@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "milsped_privacy_policies",
+  "info": {
+    "singularName": "milsped-privacy-policy",
+    "pluralName": "milsped-privacy-policies",
+    "displayName": "10 Milšped privacy policy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

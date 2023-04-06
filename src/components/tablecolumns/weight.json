@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_tablecolumns_weights",
+  "info": {
+    "displayName": "weight",
+    "icon": "balance-scale"
+  },
+  "options": {},
+  "attributes": {
+    "min": {
+      "type": "decimal"
+    },
+    "max": {
+      "type": "decimal"
+    }
+  }
+}

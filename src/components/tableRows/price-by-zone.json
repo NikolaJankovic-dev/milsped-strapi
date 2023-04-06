@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_mone_price_by_zones",
+  "info": {
+    "displayName": "PriceByTitle",
+    "icon": "money-bill-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "price_pdv": {
+      "type": "decimal"
+    }
+  }
+}

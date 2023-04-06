@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_basic_locations",
+  "info": {
+    "displayName": "Location",
+    "icon": "map-pin",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "building_title": {
+      "type": "string"
+    },
+    "street": {
+      "type": "string"
+    },
+    "post_index": {
+      "type": "integer"
+    },
+    "city": {
+      "type": "string"
+    },
+    "tel": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "latitude": {
+      "type": "float"
+    },
+    "longitude": {
+      "type": "float"
+    },
+    "working_hours": {
+      "type": "text"
+    }
+  }
+}

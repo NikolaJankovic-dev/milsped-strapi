@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_mone_prices",
+  "info": {
+    "displayName": "PriceByKilo",
+    "icon": "chart-line",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "min_amount": {
+      "type": "decimal"
+    },
+    "max_amount": {
+      "type": "decimal"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "price_pdv": {
+      "type": "decimal"
+    }
+  }
+}

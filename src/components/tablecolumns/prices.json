@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_tablecolumns_prices",
+  "info": {
+    "displayName": "prices",
+    "icon": "funnel-dollar"
+  },
+  "options": {},
+  "attributes": {
+    "without_tax": {
+      "type": "decimal"
+    },
+    "with_tax": {
+      "type": "decimal"
+    }
+  }
+}

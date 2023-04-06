@@ -1,0 +1,63 @@
+{
+  "collectionName": "components_basic_contacts",
+  "info": {
+    "displayName": "Contact",
+    "icon": "at",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "tel": {
+      "type": "string"
+    },
+    "fax": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "business_city": {
+      "type": "string"
+    },
+    "business_post_number": {
+      "type": "string"
+    },
+    "business_street": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "office_city": {
+      "type": "string"
+    },
+    "office_post_number": {
+      "type": "string"
+    },
+    "office_street": {
+      "type": "string"
+    },
+    "business_longitude": {
+      "type": "float"
+    },
+    "business_latitude": {
+      "type": "float"
+    },
+    "office_longitude": {
+      "type": "float"
+    },
+    "office_latitude": {
+      "type": "float"
+    },
+    "bank_info": {
+      "type": "text"
+    }
+  }
+}

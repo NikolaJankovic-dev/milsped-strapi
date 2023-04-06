@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_tablerows_mixed_prices",
+  "info": {
+    "displayName": "MixedPrice",
+    "icon": "blender",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "prices": {
+      "displayName": "MixedPriceRows",
+      "type": "component",
+      "repeatable": true,
+      "component": "tablerows.mixed-price-rows"
+    },
+    "ignore_if_service_id_exists": {
+      "type": "integer"
+    }
+  }
+}

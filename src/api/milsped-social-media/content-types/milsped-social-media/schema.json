@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "milsped_social_medias",
+  "info": {
+    "singularName": "milsped-social-media",
+    "pluralName": "milsped-social-medias",
+    "displayName": "11 Milšped social media"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.socials"
+    }
+  }
+}

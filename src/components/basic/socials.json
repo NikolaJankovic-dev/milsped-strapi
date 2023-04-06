@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_basic_socials",
+  "info": {
+    "displayName": "Socials",
+    "icon": "bullhorn",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "icon_code": {
+      "type": "string"
+    }
+  }
+}

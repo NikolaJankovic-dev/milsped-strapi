@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "milsped_abouts",
+  "info": {
+    "singularName": "milsped-about",
+    "pluralName": "milsped-abouts",
+    "displayName": "02 Milšped about"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "main": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "basic.basic"
+    }
+  }
+}

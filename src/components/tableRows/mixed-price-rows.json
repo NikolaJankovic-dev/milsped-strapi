@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_tablerows_mixed_price_rows",
+  "info": {
+    "displayName": "MixedPriceRows",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value_from": {
+      "type": "decimal",
+      "required": true
+    },
+    "value_to": {
+      "type": "decimal",
+      "required": true
+    },
+    "count_by": {
+      "type": "enumeration",
+      "enum": [
+        "cost",
+        "percentage"
+      ],
+      "default": "cost",
+      "required": true
+    },
+    "cost": {
+      "type": "decimal"
+    },
+    "cost_pdv": {
+      "type": "decimal"
+    },
+    "percentage": {
+      "type": "decimal"
+    },
+    "percentage_pdv": {
+      "type": "decimal"
+    }
+  }
+}

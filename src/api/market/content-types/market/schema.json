@@ -1,0 +1,128 @@
+{
+  "kind": "collectionType",
+  "collectionName": "markets",
+  "info": {
+    "singularName": "market",
+    "pluralName": "markets",
+    "displayName": "01 Milšped Market",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "m_one": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::m-one.m-one",
+      "inversedBy": "milsped_market"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "basic.contact"
+    },
+    "country_iso": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "customField",
+      "customField": "plugin::country-select.country"
+    },
+    "m_box": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::m-box.m-box",
+      "inversedBy": "milsped_market"
+    },
+    "flag_icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "uid",
+      "required": true,
+      "targetField": "title"
+    },
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "hero_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    },
+    "content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
+    },
+    "milsped_solutions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::solution.solution",
+      "mappedBy": "milsped_market"
+    },
+    "social_media": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "basic.socials"
+    }
+  }
+}

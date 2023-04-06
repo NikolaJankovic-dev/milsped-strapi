@@ -1,0 +1,35 @@
+{
+  "name": "my-new-strapi-project",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^2.0.4",
+    "@bn-digital/strapi-plugin-field-uuid": "^1.2.0",
+    "@strapi/plugin-graphql": "^4.9.0",
+    "@strapi/plugin-i18n": "^4.9.0",
+    "@strapi/plugin-users-permissions": "^4.9.0",
+    "@strapi/strapi": "4.9.0",
+    "better-sqlite3": "8.0.1",
+    "strapi-plugin-country-select": "^1.0.2",
+    "strapi-plugin-notes": "^1.0.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "8400efcd-61aa-435d-850c-17e15b7e6952"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

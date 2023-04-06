@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_tablerows_price_in_percentages",
+  "info": {
+    "displayName": "priceInPercentage",
+    "icon": "square-root-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "percentage": {
+      "type": "decimal"
+    },
+    "percentage_pdv": {
+      "type": "decimal"
+    }
+  }
+}

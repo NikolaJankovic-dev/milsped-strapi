@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_basic_faqs",
+  "info": {
+    "displayName": "FAQ",
+    "icon": "bullhorn"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string",
+      "required": false
+    },
+    "answer": {
+      "type": "richtext"
+    }
+  }
+}

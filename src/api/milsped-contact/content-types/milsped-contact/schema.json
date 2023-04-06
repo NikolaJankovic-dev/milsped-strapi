@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "milsped_contacts",
+  "info": {
+    "singularName": "milsped-contact",
+    "pluralName": "milsped-contacts",
+    "displayName": "09 Milšped contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "data": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "basic.contact"
+    }
+  }
+}

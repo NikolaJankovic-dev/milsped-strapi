@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_tablecolumns_prices_by_countries",
+  "info": {
+    "displayName": "pricesByCountry",
+    "icon": "dollar-sign",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "prices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tablecolumns.prices"
+    },
+    "slug": {
+      "type": "string",
+      "unique": false
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_basic_emails",
+  "info": {
+    "displayName": "Email",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    }
+  }
+}
